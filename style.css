@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  border: 0.5rem solid #000;
+}
+
+.header {
+  height: 100dvh;
+  background: url(./sea3.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .logo h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.navbar .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-left: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  color: #fff;
+}
+
+/* Hero */
+
+.hero {
+  height: 70dvh;
+  background: url(./woman.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-heading h1 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  padding: 4rem;
+  width: 100%;
+}
+
+.hero-btn {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hero-btn .btn {
+  width: 70%;
+  border: none;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn i:hover {
+  transform: rotate(90deg);
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-btn p {
+  width: 100%;
+  color: #ccc;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
